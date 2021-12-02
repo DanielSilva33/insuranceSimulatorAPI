@@ -4,7 +4,7 @@ import { Request, Response} from "express";
 
 export const getAllInsurance = async(request: Request, response: Response) => {
     const insurance = await getRepository(Seguro).find();
-    return response.json(Seguro);
+    return response.json(insurance);
 };
 
 export const getInsuranceById = async(request: Request, response: Response) => {

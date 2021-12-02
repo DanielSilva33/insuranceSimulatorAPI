@@ -1,5 +1,4 @@
 import { Router } from "express";
-import { appendFile } from "fs";
 import { getAllInsurance, getInsuranceById, saveInsurance} from "../controller/InsuranceController";
 
 const routes = Router();

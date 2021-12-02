@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from 'typeorm';
+import { Column, Entity, PrimaryColumn, OneToOne, JoinColumn     } from 'typeorm';
+import { Seguro } from './Seguro';
 
 @Entity({ name: 'coberturas'})
 class Cobertura {
@@ -6,7 +7,8 @@ class Cobertura {
     @PrimaryColumn()
     id: number;
 
-    @Column()
+    @OneToOne(() => Seguro)
+    @JoinColumn()
     seguro_id: string;
 
     @Column()
