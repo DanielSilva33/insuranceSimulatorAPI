@@ -1,3 +1,3 @@
 import { createConnection } from 'typeorm';
 
-const connection = createConnection();
+createConnection().then().catch(error => console.log(error));

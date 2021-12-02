@@ -1,9 +1,11 @@
 import * as express from 'express';
 import "reflect-metadata";
-import {createConnection} from "typeorm";
+import "./database/database";
 import usersRoutes from "./routes/UsersRoutes";
 import insuranceRoutes from "./routes/InsuranceRoutes";
 import CoberturaRoutes from "./routes/CoberturaRotes";
+
+import { createConnection } from 'typeorm';
 
 createConnection().then().catch(error => console.log(error));
 
