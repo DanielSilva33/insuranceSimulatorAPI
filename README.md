@@ -38,7 +38,7 @@ $ npm run dev
 
 ## Configure o seu banco de dados:
 
-Para esse projeto é preciso que esteja com o mysql rodando, e que a tabela seguro sejá criada.
+Para esse projeto é preciso que esteja com o mysql rodando, e que a tabela "seguro" sejá criada.
 
 ## Insomnia
 
