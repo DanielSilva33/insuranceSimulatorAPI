@@ -44,19 +44,38 @@ Para esse projeto é preciso que esteja com o mysql rodando, e que a tabela "seg
 
 Execute o teste das rotas pelo insomnia, que são elas:
 
-Método [GET] 
+## Método [GET] 
+
+### Users
 * baseURL/users
 * baseURL/users/:user_id
+
+### Insurance
 * baseURL/insurance
 * baseURL/insurance/:id
+
+### Covarage
 * baseURL/cobertura
 * baseURL/cobertura/:id
 * baseURL/allcobertura
 
-Método [POST]
+## Users Auth
+* baseURL/users-auth
+
+## Método [POST]
+
+### Users
 * baseURL/users
+
+### Insurance
 * baseURL/insurance
+
+### Covarage
 * baseURL/cobertura
+
+## Users Auth
+* baseURL/users-save
+* baseURL/session
 
 
 ---

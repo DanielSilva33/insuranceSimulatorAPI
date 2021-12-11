@@ -5,8 +5,8 @@ import { auth } from "../middleware/auth";
 const routes = Router();
 
 routes.get("/users-auth", listUsersAuth);
+routes.post("/users-save", saveUsers);
 routes.post("/session", login);
-routes.post("/users-auth", saveUsers);
 
 
 export default routes;
