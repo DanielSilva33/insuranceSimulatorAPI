@@ -41,6 +41,7 @@ $ npm run dev
 Para esse projeto é preciso que esteja com o mysql rodando, e que a tabela "seguro" sejá criada.
 
 ## Insomnia
+Baixe o arquivo de importação.
 
 Execute o teste das rotas pelo insomnia, que são elas:
 
