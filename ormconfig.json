@@ -3,9 +3,9 @@
    "host": "localhost",
    "port": 3306,
    "username": "root",
-   "password": "PASS",
+   "password": "123456",
    "database": "seguro",
-   "synchronize": false,
+   "synchronize": true,
    "logging": false,
    "entities": [
       "src/entity/**/*.ts"
