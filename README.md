@@ -59,7 +59,7 @@ Execute o teste das rotas pelo insomnia, que são elas:
 * baseURL/cobertura/:id
 * baseURL/allcobertura
 
-## Users Auth
+### Users Auth
 * baseURL/users-auth
 
 ## Método [POST]
@@ -73,7 +73,7 @@ Execute o teste das rotas pelo insomnia, que são elas:
 ### Covarage
 * baseURL/cobertura
 
-## Users Auth
+### Users Auth
 * baseURL/users-save
 * baseURL/session
 
