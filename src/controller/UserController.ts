@@ -21,3 +21,10 @@ export const saveUsers = async(request: Request, response: Response) => {
     const users = await getRepository(User).save(request.body);
     return response.json(users);
 };
+
+export const deleteUsers = async (request: Request, response: Response) => {
+    const { id } = request.params;
+
+    const deleteUser = await getRepository(User).delete({ id: parseInt(id) });
+    return response.json({ message: "User deleted successfully!" });
+};

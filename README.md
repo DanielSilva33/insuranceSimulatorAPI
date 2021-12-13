@@ -78,6 +78,10 @@ Execute o teste das rotas pelo insomnia, que são elas:
 * baseURL/users-save
 * baseURL/session
 
+## Método [DELETE]
+### Users
+* baseURL/users/id
+
 
 ---
 Feito por [Daniel Silva](https://www.linkedin.com/in/daniel-silva-1a3209196/) 🚀
