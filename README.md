@@ -80,4 +80,4 @@ Execute o teste das rotas pelo insomnia, que são elas:
 
 
 ---
-Feito por [Daniel Silva](https://www.linkedin.com/in/daniel-silva-1a3209196/)
+Feito por [Daniel Silva](https://www.linkedin.com/in/daniel-silva-1a3209196/) 🚀
