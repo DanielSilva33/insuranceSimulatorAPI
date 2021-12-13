@@ -1,6 +1,7 @@
 import { getRepository } from "typeorm";
 import { UsersAuth } from "../entity/UsersAuth";
 import { Request, Response} from "express";
+import * as emailValidator from "email-validator"; 
 import * as bcrypt from "bcrypt";
 import * as jwt from "jsonwebtoken"
 
@@ -48,6 +49,10 @@ export const listUsersAuth = async(request: Request, response: Response) => {
 export const saveUsers = async(request: Request, response: Response) => {
     
     const { name, email, password } = request.body;
+
+    if(!emailValidator.validate(email)) {
+        return response.status(400).json({ message: "Invalid email" });
+    }
 
     const passwordHash = await bcrypt.hash(password, 8);
 
